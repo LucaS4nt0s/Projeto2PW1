@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black : #000000;
+    --white : #ffffff;
+    --primary : #E50914;
+    --light-red : #fd7272;
+    --gray : #afaeae;
+    --gray-background : #f3f3f3;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../Img/netflix-.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.login-form{
+    max-width: 500px;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid var(--gray);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+
+
+
+input{
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--white);
+    font-size: 15px;
+}
+
+#username {
+    margin-bottom: 20px;
+}
+
+
+button {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: 0;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: var(--light-red);
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: var(--gray);
+}
+
+fieldset {
+    border: 0;
+    border-bottom: 0.1px  solid var(--gray);
+    padding: 0;
+    margin: 0;
+}

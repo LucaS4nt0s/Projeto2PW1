@@ -1,2 +1,2 @@
 # Projeto2PW1
-Projeto de programação web 1, site com estilização avançada
+Projeto de programação web 1, site de video locadora
