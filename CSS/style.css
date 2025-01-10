@@ -67,6 +67,7 @@ body{
     max-width: 130px;
     top: 0;
     transform: translate(10%, -52%);
+    filter: drop-shadow(0 0 0.6rem var(--primary));
 }
 
 footer{
@@ -77,4 +78,5 @@ footer{
     color: var(--white);
     text-align: center;
     padding: 10px 0;
+    font-size: 15px;
 }

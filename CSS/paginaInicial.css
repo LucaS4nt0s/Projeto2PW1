@@ -1,0 +1,19 @@
+main{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img{
+    width: 100%;
+    max-width: 300px;
+}
+
+main p{
+    color: var(--white);
+    margin: 20px;
+    font-size: 17px;
+}
