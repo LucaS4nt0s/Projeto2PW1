@@ -8,7 +8,7 @@
     --black : #000000;
     --white : #ffffff;
     --primary : #3eff5e;
-    --light-green : #8cdf9a;
+    --light-green : #77d887;
     --light-gray : #555151;
     --gray : #afaeae;
     --gray-background : #f3f3f3;
@@ -16,6 +16,7 @@
     --red : #da4a4a;
     --light-red : #f0a3a3;
 }
+
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -30,9 +31,9 @@ h2{
     position: fixed;
     top: 7%;
     left: 7%;
-    font-family: "Playwrite VN", serif;
+    font-family: 'bebas_neue' sans-serif;
     color: var(--primary);
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .login-form{
@@ -42,10 +43,6 @@ h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background-color: rgba(0, 0, 0, 0.7);
-    border: 1px solid var(--gray);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 10px; */
     padding: 40px;
     color: var(--white);
 }
@@ -154,10 +151,6 @@ radio {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -25%);
-    /* background-color: rgba(0, 0, 0, 0.7);
-    border: 1px solid var(--gray);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 10px; */
     padding: 40px 40px 60px 40px;
     color: var(--white);
 }
