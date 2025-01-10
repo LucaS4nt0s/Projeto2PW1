@@ -3,11 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="/CSS/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
     <title>Login</title>
   </head>
   <body>
+    <header>
+      <nav class="nav-header">
+          <h2>Webflix</h2>
+      </nav>
+    </header>
     <div class="login-container">
       <form class="login-form" action="/paginaInicial.html">
         <fieldset>
@@ -28,9 +35,9 @@
             autocomplete="off"
             required
           />
-          <button type="submit">Entrar</button>
+          <button type="submit" class="login">Entrar</button>
         </fieldset>
-        <a href="/cadastroUsuario.html">Cadastre-se</a>
+        <a href="/cadastroUsuario.html">Cadastrar</a>
       </form>
     </div>
     <script>
