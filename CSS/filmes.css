@@ -24,17 +24,15 @@
 
 
 .filmes-list a{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0,0,0,0.2);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     text-decoration: none;
-    color: var(--black);
+    color: var(--white);
     padding: 15px;
 }
 
 .filmes-list a:hover{
-    background-color: var(--gray);
-    text-decoration: none;
     box-shadow: 0 0 20px rgba(0,0,0,0.7);
 }
 
