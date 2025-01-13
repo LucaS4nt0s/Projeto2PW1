@@ -19,81 +19,70 @@
 }
 
 .filmes-list li{
-    
-    margin: 20px 10px 0;
-    
+    padding: 30px;
 }
 
-.filmes-list li:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.363);
-}
 
 .filmes-list a{
-    background-color: #333;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    transition: all 0.3s;
     text-decoration: none;
-    color: #fff;
-    padding: 10px;
+    color: var(--black);
+    padding: 15px;
 }
 
 .filmes-list a:hover{
+    background-color: var(--gray);
     text-decoration: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
 }
 
 h2{
     color:var(--white);
-    margin: 40px 0 15px 20px;
-    font-size: 20px;
+    margin: 40px 0 20px 55px;
+    font-size: 25px;
     
 }
 
 
 .imagem-filmes{
-    
     display: flex;
     height: 150px;
-    margin: 10px 5px 0 10px;
+    margin: 10px 5px 15px 10px;
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
 }
+
 .Filmes{
     width: 100%;
+    height: 80%;
     padding: 0;
-    margin: 0;
-    display:flex;
+    margin-bottom: 100px;
+    display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
-p{
-    display: flexbox;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.Filmes p{
     color: var(--white);
-    font-size: 17px;
-
-}
-
+    font-size: 15px;
+    margin: 0 0 30px 0;
+} 
 
  .AnjosDaLei,.Batman,.GenteGrande,.AOrigem,.BadBoys,.EsposaDeMentirinha, .Interestelar, .Kingsman, .Tenet, .VelozesEFuriosos{
-
     padding: 0;
-    margin: 0 0 30px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-basis: 20%;
+
  }
 
 
  .imagem-filmes:hover{
-    
-    border-radius: 15px;
-    transform: scale(1.2);
+    transform: scale(1.1);
  }
+
 
  
  
