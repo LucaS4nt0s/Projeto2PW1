@@ -48,6 +48,7 @@ body{
     text-decoration: none;
     font-size: 15px;
     padding: 15px 40px 15px 40px;
+    text-size-adjust: 10px;
 
 }
 
@@ -60,7 +61,7 @@ body{
 }
 
 .logo{
-    width: 25%;
+    max-width: 100px;
     display: block;
     margin-top: 2px;
 }
