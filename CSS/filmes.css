@@ -19,7 +19,8 @@
 }
 
 .filmes-list li{
-    margin: 10px;
+    
+    margin: 20px 10px 0;
     
 }
 
@@ -41,3 +42,59 @@
 .filmes-list a:hover{
     text-decoration: none;
 }
+
+h2{
+    color:var(--white);
+    margin: 40px 0 15px 20px;
+    font-size: 20px;
+    
+}
+
+
+.imagem-filmes{
+    
+    display: flex;
+    height: 150px;
+    margin: 10px 5px 0 10px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+.Filmes{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p{
+    display: flexbox;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--white);
+    font-size: 17px;
+
+}
+
+
+ .AnjosDaLei,.Batman,.GenteGrande,.AOrigem,.BadBoys,.EsposaDeMentirinha, .Interestelar, .Kingsman, .Tenet, .VelozesEFuriosos{
+
+    padding: 0;
+    margin: 0 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+ .imagem-filmes:hover{
+    
+    border-radius: 15px;
+    transform: scale(1.2);
+ }
+
+ 
+ 
+
