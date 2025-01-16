@@ -7,7 +7,7 @@
 :root{
     --black : #000000;
     --white : #ffffff;
-    --primary : #3eff5e;
+    --primary : rgb(62, 255, 94);
     --light-green : #77d887;
     --light-gray : #555151;
     --gray : #afaeae;
@@ -16,7 +16,6 @@
     --red : #da4a4a;
     --light-red : #f0a3a3;
 }
-
 
 body{
     font-family: 'Montserrat', sans-serif;
