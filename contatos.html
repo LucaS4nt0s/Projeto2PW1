@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="/CSS/paginaInicial.css" />
+    <link rel="stylesheet" href="/CSS/contatos.css" />
     <title>Webflix</title>
   </head>
   <body>
@@ -26,7 +27,21 @@
       </div>
     </header>
     <main>
-      
+      <div class="contatos">
+        <form class="contato">
+          <label><h1 class="titulo">Contatos</h1></label>
+          <label>Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+          <label>Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label>Assunto:</label>
+          <input type="text" id="assunto" name="assunto" required />
+          <label>Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+          <button type="submit" class="enviar-email">Enviar E-mail</button>
+        </form>
+        
+      </div>
     </main>
     <footer>
       <p>

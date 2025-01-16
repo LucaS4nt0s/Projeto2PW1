@@ -21,14 +21,18 @@
 }
 
 .trailer-anjos-da-lei, .trailer-a-origem, .trailer-bad-boys, .trailer-batman, .trailer-esposa-de-mentirinha, .trailer-gente-grande, .trailer-interestellar, .trailer-kingsman, .trailer-tenet, .trailer-velozes-e-furiosos{
-    flex-basis: 50%;
-    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    flex-basis: 33%;
 }
 
 h1{
-    text-align: center;
-    margin: 100px 0 50px 0;
     color: var(--primary);
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0 20px;
 }
 
 h2{

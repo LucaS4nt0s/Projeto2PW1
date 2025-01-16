@@ -18,7 +18,7 @@ main{
     flex-direction: column;
 }
 
-main img{
+.Imagem-principal{
     width: 100%;
     max-width: 300px;
     border-radius: 50%;
@@ -27,7 +27,7 @@ main img{
 
 main p{
     color: var(--white);
-    margin: 60px;
+    margin: 30px;
     font-size: 20px;
     text-align: center;
 }
