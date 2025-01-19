@@ -47,7 +47,7 @@ h2{
 .imagem-filmes{
     display: flex;
     height: 150px;
-    margin: 10px 5px 15px 10px;
+    margin: 10px 10px 15px;
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
 }
