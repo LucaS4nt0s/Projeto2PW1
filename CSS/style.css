@@ -61,7 +61,8 @@ body{
 }
 
 .logo{
-    max-width: 100px;
+    max-width: 70px;
+    max-height: 70px;
     display: block;
     margin-top: 2px;
 }
