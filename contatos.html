@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="/CSS/paginaInicial.css" />
     <link rel="stylesheet" href="/CSS/contatos.css" />
+    <link rel="shortcut icon" type="imagex/png" href="Img/logo.png"/>
     <title>Webflix</title>
   </head>
   <body>
@@ -49,5 +50,15 @@
         Federal do Sul de Minas Gerais - 2025
       </p>
     </footer>
+    <script>
+      const form = document.querySelector(".contato");
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        alert(
+          `O e-mail foi enviado com sucesso!`
+        );
+        form.reset();
+      });
+    </script>
   </body>
 </html>
